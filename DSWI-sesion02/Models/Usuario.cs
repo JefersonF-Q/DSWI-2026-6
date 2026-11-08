@@ -15,7 +15,7 @@ namespace DSWI_sesion02.Models
         [Required(ErrorMessage = "El correo es obligatorio")]
         [StringLength(50, ErrorMessage = "El correo no puede superar los 50 caracteres")]
         [EmailAddress(ErrorMessage ="Correo electronico invalido")]
-        [Display(Name = "Nombre completo")]
+        [Display(Name = "Correo")]
         public string correo { get; set; }
 
 
@@ -25,8 +25,10 @@ namespace DSWI_sesion02.Models
         [Display(Name = "Contraseña")]
         public string clave { get; set; }
 
-        [Display(Name ="Fecha de registro")]
-        public DateTime fechaRegistro { get; set; }
+
+        [Required(ErrorMessage = "La fecha es obligatioria")]
+        [Display(Name = "Fecha de registro")]
+        public DateTime fechaRegistro { get; set; } = DateTime.Now;
 
     }
 }
