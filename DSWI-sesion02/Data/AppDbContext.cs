@@ -11,5 +11,7 @@ namespace DSWI_sesion02.Data
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+
+        public DbSet<DSWI_sesion02.Models.Producto> Producto { get; set; } = default!;
     }
 }
