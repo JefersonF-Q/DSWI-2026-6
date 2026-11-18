@@ -11293,23 +11293,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SUITE\\.nuget\\packages\\": {},
+    "C:\\Users\\Cibertec\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SUITE\\Source\\Repos\\DSWI-2026-6\\DSWI-sesion02\\DSWI-sesion02.csproj",
+      "projectUniqueName": "D:\\DSW\\DSWI-sesion02\\DSWI-sesion02.csproj",
       "projectName": "DSWI-sesion02",
-      "projectPath": "C:\\Users\\SUITE\\Source\\Repos\\DSWI-2026-6\\DSWI-sesion02\\DSWI-sesion02.csproj",
-      "packagesPath": "C:\\Users\\SUITE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SUITE\\Source\\Repos\\DSWI-2026-6\\DSWI-sesion02\\obj\\",
+      "projectPath": "D:\\DSW\\DSWI-sesion02\\DSWI-sesion02.csproj",
+      "packagesPath": "C:\\Users\\Cibertec\\.nuget\\packages\\",
+      "outputPath": "D:\\DSW\\DSWI-sesion02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SUITE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cibertec\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11318,7 +11318,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11331,13 +11331,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net7.0": {
@@ -11381,7 +11375,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.320\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

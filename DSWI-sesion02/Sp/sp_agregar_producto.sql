@@ -7,14 +7,12 @@
 )
 as
 INSERT INTO Producto(
-	Id,
 	Nombre,
 	Precio,
 	Cantidad,
 	Estado
 )
 VALUES(
-	default,
 	@Nombre,
 	@Precio,
 	@Cantidad,

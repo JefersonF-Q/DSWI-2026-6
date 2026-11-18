@@ -13,10 +13,12 @@ namespace DSWI_sesion02.Controllers
     public class ProductosController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly ProductoRepository _repo;
 
-        public ProductosController(AppDbContext context)
+        public ProductosController(ProductoRepository repo,AppDbContext context)
         {
             _context = context;
+            _repo = repo;
         }
 
         // GET: Productos
@@ -56,12 +58,12 @@ namespace DSWI_sesion02.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre,Precio,Cantidad,Estado")] Producto producto)
+        public async Task<IActionResult> Create(Producto producto)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(producto);
-                await _context.SaveChangesAsync();
+                await
+                _repo.AgregarProducto(producto);
                 return RedirectToAction(nameof(Index));
             }
             return View(producto);

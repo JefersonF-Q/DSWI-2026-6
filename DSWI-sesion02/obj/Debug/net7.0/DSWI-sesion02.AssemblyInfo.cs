@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DSWI-sesion02")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b04875227b8e59294a65ab9a7414ca4f6287691")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DSWI-sesion02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSWI-sesion02")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

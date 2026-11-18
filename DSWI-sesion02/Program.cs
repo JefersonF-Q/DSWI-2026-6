@@ -11,7 +11,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
     )
 );
-
+builder.Services.AddScoped<ProductoRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
